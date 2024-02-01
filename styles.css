@@ -1,0 +1,142 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Nav Component Styles */
+  .nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  /* DogList Component Styles */
+  .dog-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .dog-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .dog-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .dog-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* DogDetails Component Styles */
+  .dog-details {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dog-details img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .facts-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .facts-list li {
+    margin-bottom: 8px;
+  }
+  
+  /* ColorList Component Styles */
+  .colors-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .color-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 200px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .color-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .color-card div {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+  }
+  
+  /* AddColorForm Component Styles */
+  .add-color-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-color-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-color-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .add-color-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
